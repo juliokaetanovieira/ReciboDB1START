@@ -1,0 +1,8 @@
+update cidade
+set nome = 'Lunardelli' where id = 8
+
+update cidade
+set nome = 'Jandaia' where id = 14
+
+update cidade
+set nome = 'Cidade Canção' where id = 7

@@ -1,0 +1,14 @@
+insert into 
+	public.cidade (id_uf, nome) 
+values
+	(2, 'Adamantina');
+	
+insert into 
+	public.cidade (id_uf, nome) 
+values
+	(2, 'Caiabu');
+
+insert into 
+	public.cidade (id_uf, nome) 
+values
+	(2, 'Osasco');

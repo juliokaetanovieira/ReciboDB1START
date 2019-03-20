@@ -1,0 +1,19 @@
+Inserindo três pessoas:
+
+INSERT INTO pessoa (nome, cpf) VALUES ('julio vieira', '12345678910');
+INSERT INTO pessoa (nome, cpf) VALUES ('anna laura', '10987654321');
+INSERT INTO pessoa (nome, cpf) VALUES ('glaucia', '54321678910');	
+
+Inserindo dois endereços para cada pessoa, sendo um endereço residencial e outro comercial:
+
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (6,10,'Av. Domingos',669,87040000,'casa','residencial');
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (6,10,'R. Brg. Franco',2300,80250030,'shooping','comercial');
+
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (7,11,'Rua walter karlos',688,87083730,'casa','residencial');
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (7,11,'Av. São Paulo',743,87030040,'shooping','comercial');
+
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (8,12,'Rua walter karlos',688,87083730,'casa','residencial');
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (8,12,' Av. São Paulo',1099,87030025,'shooping','comercial');
+
+
+

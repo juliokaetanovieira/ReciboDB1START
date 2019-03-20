@@ -1,0 +1,1 @@
+delete from uf where id not in (2,18,26)

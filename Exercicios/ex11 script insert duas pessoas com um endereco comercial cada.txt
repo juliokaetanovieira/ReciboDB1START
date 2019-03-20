@@ -1,0 +1,11 @@
+Inserindo duas pessoas:
+
+INSERT INTO pessoa (nome, cpf) VALUES ('juninho', '36925814710');
+INSERT INTO pessoa (nome, cpf) VALUES ('eugenio', '96385274110');
+
+Inserindo um endereço comercial para cada pessoa:
+
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (5,15,'R. Mário Lobo',106,89201330,'shooping cidade das flores','comercial');
+INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (3,16,'Av. Fernando Machado',4000,89805203,'shooping patio chapeco','comercial');
+
+

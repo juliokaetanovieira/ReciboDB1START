@@ -1,0 +1,8 @@
+inserindo dois recibos para clientes residentes no PR e o emitente de servico é diferente :
+
+insert into recibo (id_cliente,id_emitente,id_cidade, sequencia, date,assinatura, valor)
+values (11,14,16,3,'2016/02/09', 'Lolly', 2000);
+
+
+insert into recibo (id_cliente,id_emitente,id_cidade, sequencia, date,assinatura, valor)
+values (12,15,5,4,'2016/03/09', 'Juninho', 4000)

@@ -1,0 +1,10 @@
+select pes.nome as nome_pessoa, cid.nome as nome_cidade, uf.sigla as sigla_estado, ende.logradouro, ende.numero, ende.cep, ende.complemento, ende.tipo_endereco from pessoa pes
+inner join endereco ende
+on pes.id = ende.id_pessoa
+inner join cidade cid
+on ende.id_cidade = cid.id
+inner join uf uf
+on cid.id_uf = uf.id
+order by nome_pessoa,
+sigla_estado,
+nome_cidade

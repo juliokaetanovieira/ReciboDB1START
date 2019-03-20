@@ -1,0 +1,23 @@
+select reci.sequencia as numero_recibo, reci."date" as data_recibo, reci.valor as valor_recibo, pes.nome, uf.nome as nome_estado, pes2.nome as nome_emitente, uf2.nome as estado_do_emitente 
+from recibo reci
+left join pessoa pes
+on reci.id_cliente = pes.id
+
+left join cidade cid
+on reci.id_cidade = cid.id
+
+left join uf uf
+on cid.id_uf = uf.id
+
+left join pessoa pes2
+on reci.id_emitente = pes2.id
+
+left join cidade cid2
+on reci.id_cidade = cid2.id
+
+left join uf uf2
+on cid2.id_uf = uf2.id
+
+order by reci.date,
+pes.nome,
+pes2.nome
